@@ -1,3 +1,44 @@
+--[[
+
+! special
+*.foreground:   #c8cedc
+*.background:   #20202a
+*.cursorColor:  #b8dceb
+
+! black
+*.color0:       #3b3b4d
+*.color8:       #1b1b23
+
+! red
+*.color1:       #ebb9b9
+*.color9:       #d95e59
+
+! green
+*.color2:       #caf6bb
+*.color10:      #8fc587
+
+! yellow
+*.color3:       #E6DFB8
+*.color11:      #ffcf85
+
+! blue
+*.color4:       #cddbf9
+*.color12:      #4a83c3
+
+! magenta
+*.color5:       #f6bbe7
+*.color13:      #bf83b5
+
+! cyan
+*.color6:       #b8dceb
+*.color14:      #4eb3cd
+
+! white
+*.color7:       #c8cedc
+*.color15:      #abb2c2
+
+--]] --
+
 return {
   deep = {
     black = "#0c0e15",
@@ -26,6 +67,14 @@ return {
     diff_delete = "#331c1e",
     diff_change = "#102b40",
     diff_text = "#1c4a6e",
+    diagnostics_error = "#f6bbe7",
+    diagnostics_error_darker = "#bf83b5",
+    diagnostics_hint = "#caf6bb",
+    diagnostics_hint_darker = "#8fc587",
+    diagnostics_warn = "#ebb9b9",
+    diagnostics_warn_darker = "#d95e59",
+    diagnostics_info = "#b8dceb",
+    diagnostics_info_darker = "#4eb3cd",
   },
   dark = {},
   darker = {
