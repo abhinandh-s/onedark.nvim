@@ -682,7 +682,7 @@ hl.plugins.mini = {
   MiniIconsYellow = { fg = c.yellow },
 
   MiniIndentscopeSymbol = { fg = c.grey },
-  MiniIndentscopePrefix = { fmt = "nocombine" },   -- Make it invisible
+  MiniIndentscopePrefix = { fmt = "nocombine" }, -- Make it invisible
 
   MiniJump = { fg = c.purple, fmt = "underline", sp = c.purple },
 
@@ -869,6 +869,17 @@ hl.langs.vim = {
   vimMapRhs = colors.Blue,
   vimVar = { fg = c.fg, fmt = cfg.code_style.variables },
   vimCommentTitle = { fg = c.light_grey, fmt = cfg.code_style.comments },
+}
+
+hl.langs.vimwiki = {
+  cppStatement = { fg = c.purple, fmt = "bold" },
+  cppTSInclude = colors.Blue,
+  VimwikiHeader1 = { fg = '#e52e71', fmt = "bold" },
+  VimwikiHeader2 = { fg = '#89b4fa', fmt = "bold" },
+  VimwikiHeader3 = { fg = '#FFA066', fmt = "bold" },
+  VimwikiHeader4 = { fg = '#7fbbb3', fmt = "bold" },
+  VimwikiHeader5 = { fg = '#89dceb', fmt = "bold" },
+  VimwikiHeader6 = { fg = '#9ece6a', fmt = "bold" },
 }
 
 local lsp_kind_icons_color = {
